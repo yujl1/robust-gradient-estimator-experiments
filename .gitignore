@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+.env
+.env.*
+
+# Local datasets and generated experiment artifacts
+*.npz
+output/
+outputs/
+tmp/
+
+# Manuscript working copies are maintained separately in Overleaf
+overleaf_workshop_snapshot/
+work/
